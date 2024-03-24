@@ -4,6 +4,7 @@ fn main() {
     println!("THREE_HOURS_IN_SECONDS: {THREE_HOURS_IN_SECONDS}");
 
     // error
+    // should be mutable if want to re-assign
     // let x = 5;
     // println!("The value of x is: {x}");
     // x = 6;
@@ -44,6 +45,7 @@ fn main() {
     // println!("The value of spaces is: {spaces}");
 
     // error
+    // changing the data type of `spaces` variable
     // let mut spaces = "   ";
     // spaces = spaces.len();
     // println!("The value of spaces is: {spaces}");
